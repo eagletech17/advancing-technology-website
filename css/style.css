@@ -1,0 +1,227 @@
+/* BASE STYLES */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+}
+a{
+    margin: 25px 0;
+    text-decoration: none;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 18px;
+}
+p{
+    line-height: 1.4;
+}
+.button{
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+}
+/* DEFAULTS */
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+section{
+    overflow: auto;
+}
+.wrap{
+    max-width: 1280px;
+    padding: 50px;
+}
+
+/***** HOMEPAGE *****/
+
+/* Header */
+header{
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+}
+header img{
+    margin: 0 auto;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+/* Three Points */
+
+.three-points-section{
+min-height: 400px;
+background-image: url(../images/swirl.png) ;
+
+}
+
+.three-points-section img{
+width: 300px;
+margin: 0 auto;
+border-radius: 50%;
+
+}
+img:hover{
+    border: 5px solid lightblue;
+}
+
+.three-points-section-image{
+width: 40%;
+float: left;
+}
+
+.three-points-section-text{
+width: 60%;
+float: left;
+}
+
+/* Two Columns */
+section#two-columns .wrap{
+overflow: auto;
+}
+
+.two-columns-section1{
+    float: left;
+    width: 49%;
+    background-image: url(../images/swirl.png);
+    border: 1px groove lightgray;
+    margin: 2px;
+    box-shadow: 2px 2px lightgray;
+    
+}
+.two-columns-section2{
+    float: right;
+    width: 49%;
+    background-image: url(../images/swirl.png);
+    border: 1px groove lightgray;
+    box-shadow: 2px 2px lightgray;
+    
+}
+section#two-columns h2{
+    text-align: center;
+}
+.two-columns-section1 h2, .two-columns-section2 h2{
+    text-align: center;
+}
+.speaker{
+    clear: both;
+    min-height: 200px;
+}
+.two-columns-image img{
+   width:160px;
+   margin: 0 auto;
+   border-radius: 50%;
+}
+.two-columns-image{
+    width:50%;
+     float: left;
+   
+}
+.two-columns-text{
+    width: 50%;
+    float: left;
+}
+/* Benefits */
+section#benefits{
+    background-color:#bdd5ea;
+    
+}
+
+/* Packages */
+section#conference-package{
+background-color: #bdd5ea;
+}
+section#conference-package h2{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+table, th, td{
+    border: 3px solid #bdd5ea;
+}
+th, td{
+    height: 50px;
+    text-align: center;
+}
+th {
+    background-color: #495867;
+    color: white;
+}
+td{
+    background-color: #fff;
+    color: black;
+}
+
+/* Invitation */
+section#invitation{
+background-color: #bdd5ea;
+text-align: center;
+}
+footer{
+    background-color: #495867;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+/***** TICKETS *****/
+.tickets h1{
+    text-align: center;
+}
+section#ticket-reg{
+    text-align: center;
+    margin: 0 auto;
+}
+#ticket-reg form{
+margin: 0 auto;
+text-align: center;
+padding: 15px;
+width: 400px;
+}
+
+#ticket-reg form .ticket-details{
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+        }
+
+ #ticket-reg form .select-pack {
+     padding: 6px;
+     display: block;
+     margin: 0 auto;
+     margin-bottom: 10px;
+     border: 1px solid #dedede;
+     width: 200px;
+        }
+#ticket-reg form .select-pack select{
+    border: none;
+    width: 100%;
+}
+        
+ #ticket-reg form input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 6px;
+        } 
